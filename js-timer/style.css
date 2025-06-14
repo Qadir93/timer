@@ -1,0 +1,44 @@
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: #121212;
+     color: #fff;
+     font-family: 'Arial', sans-serif;
+ }
+
+ .timer-container {
+     text-align: center;
+     background: #1f1f1f;
+     padding: 30px;
+     border-radius: 15px;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+ }
+
+ .time-display {
+     font-size: 5rem;
+     margin-bottom: 20px;
+     letter-spacing: 2px;
+ }
+
+ .buttons {
+     display: flex;
+     justify-content: center;
+     gap: 15px;
+ }
+
+ button {
+     padding: 10px 20px;
+     font-size: 1.2rem;
+     border: none;
+     border-radius: 8px;
+     background-color: #61dafb;
+     color: #000;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+
+ button:hover {
+     background-color: #21a1f1;
+ }
